@@ -1,0 +1,448 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1280px) {
+
+    /* Styles */
+    .header__smm {
+        display: none;
+    }
+
+    .mb-logo {
+        display: none;
+    }
+
+    .gallery__box-inner {
+        font-size: 18px;
+    }
+
+    .gallery__text {
+        font-size: 18px;
+    }
+
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    /* Styles */
+    .header__smm {
+        display: none;
+    }
+	
+    .widget.inline > ul {
+        float: left;
+        width: 30%;
+    }
+
+    .widget.inline li {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .gallery__box-inner {
+        font-size: 16px;
+    }
+
+    .gallery__text {
+        font-size: 18px;
+    }
+
+    .gallery__hover-text {
+        left: 5px;
+        bottom: 5px;
+    }
+
+    .offer-text .offers_content p {
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .select-cuerncy {
+        display: none;
+    }
+
+
+}
+
+
+@media only screen and (min-device-width : 640px) and (max-device-width : 767px) {
+
+    /* Styles */
+    .header__smm {
+        display: none;
+    }
+
+    .header__help {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .mb-logo {
+        display: block;
+    }
+
+
+    .offer-text {
+        margin-top: 20%;
+    }
+
+    .offer-text .offers_content p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .offer-text .offers_content {
+        margin-top: 10%;
+    }
+
+    .offers__add {
+        display: flex;
+        justify-content: center;
+        right: 0;
+        top: 10px;
+        width: 100%;
+    }
+
+    .briefly .box__title {
+        font-size: 16px;
+    }
+	
+	.roomster-chip{
+		height: 40px;
+		font-weight: 700;
+	}
+	
+    .briefly .box__content p,
+    .widget li a {
+        font-size: 13px;
+    }
+
+    .widget.inline > ul {
+        float: left;
+        width: 30%;
+    }
+
+    .widget.inline li {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .google-translator {
+        margin: 0 9px;
+    }
+
+    .gallery__box-inner {
+        font-size: 10px;
+    }
+
+    .gallery__text {
+        font-size: 14px;
+    }
+
+    .gallery__hover-text {
+        left: 5px;
+        bottom: 5px;
+    }
+
+    .gallery__hover-text i.fa {
+        font-size: 10px;
+    }
+
+    .offers__cards {
+        display: none;
+    }
+
+    .briefly .box__content p,
+    .widget li a {
+        font-size: 0.875rem;
+    }
+
+    .briefly .box__title {
+        font-size: 1.25rem;
+    }
+
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 639px) {
+    /* Styles */
+
+    .header__smm {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .mb-logo {
+        display: block;
+        width: 40px;
+    }
+
+    .header__help {
+        display: none;
+    }
+	
+	.banner__slider-content-title {
+		font-size: 34px;
+	}
+	
+	.roomster-chip{
+		height: 40px;
+		font-weight: 700;
+	}
+
+    .offer-text .offers__add a {
+        width: 175px;
+    }
+
+    .offer-text {
+        margin-top: 20%;
+    }
+
+    .offer-text .offers_content p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .briefly .box__title {
+        font-size: 16px;
+    }
+
+    .briefly .box__content p,
+    .widget li a {
+        font-size: 13px;
+    }
+
+    .widget.inline > ul {
+        float: left;
+        width: 30%;
+    }
+
+    .widget.inline li {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .select-cuerncy .form-control {
+        width: auto;
+    }
+
+    .google-translator {
+        margin: 0 8px;
+    }
+
+    .gallery__text {
+        font-size: 12px;
+    }
+
+    .gallery__hover-text {
+        font-size: 9px;
+        bottom: 10px;
+    }
+
+    .gallery__hover-text i.fa {
+        display: none;
+    }
+
+    .gallery__hover-text span:first-child {
+        width: auto;
+    }
+
+    .offers__cards {
+        display: none;
+    }
+
+    .responsive-center {
+        text-align: center;
+    }
+
+    .select-cuerncy {
+        display: none;
+    }
+
+    .btn-fb {
+        padding: 7px 10px !important;
+    }
+
+    .searching-field #modal-filters.form-control {
+        min-height: 40px;
+    }
+
+    .searching-field .icon-location {
+        font-size: 22px;
+    }
+
+    .inthepress__background {
+        display: block;
+        height: 180px;
+        width: 100%;
+    }
+
+    .footer__social img {
+        margin: 6px 0;
+    }
+
+}
+
+@media only screen and (min-device-width : 240px) and (max-device-width : 479px) {
+    /* Styles */
+
+    .header__smm {
+        display: none;
+    }
+
+    .header__help {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+	
+	.banner__slider-content-title {
+		font-size: 34px;
+	}
+	
+	.roomster-chip{
+		height: 40px;
+		font-weight: 700;
+	}
+
+    .google-translator {
+        margin: 0 -4px !important;
+    }
+
+    .mb-logo {
+        display: block;
+        width: 40px;
+    }
+
+    .btn-fb {
+        border: 1px solid #3b5998 !important;
+        display: none;
+        padding: 10px 6px !important;
+    }
+
+    .offer-text .offers__add a {
+        width: 175px;
+    }
+
+    .offer-text {
+        margin-top: 20%;
+    }
+
+    .offer-text .offers_content p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .briefly .box__title {
+        font-size: 16px;
+    }
+
+    .briefly .box__content p,
+    .widget li a {
+        font-size: 13px;
+    }
+
+    .widget.inline > ul {
+        float: left;
+        width: 30%;
+    }
+
+    .widget.inline li {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .btn-fb {
+        border: 1px solid #3b5998 !important;
+        padding: 10px 6px !important;
+    }
+
+    .select-cuerncy .form-control {
+        width: auto;
+    }
+
+    .google-translator {
+        margin: 0 8px;
+    }
+
+    .gallery__text {
+        font-size: 9px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .gallery__hover-text {
+        font-size: 8px;
+        bottom: 4px;
+        left: 4px;
+    }
+
+    .offer-text .offers_content {
+        margin-top: 15%;
+    }
+
+    .offers {
+
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        height: 339px;
+
+    }
+
+    .gallery__hover-text i.fa {
+        display: none;
+    }
+
+    .gallery__hover-text span:first-child {
+        width: auto;
+    }
+
+    .offers__cards {
+        display: none;
+    }
+
+    .responsive-center {
+        text-align: center;
+    }
+
+    .inthepress__background {
+        display: block;
+        height: 180px;
+        width: 100%;
+    }
+
+    .select-cuerncy {
+        display: none;
+    }
+
+    .rental-link-button a {
+        font-size: 12px;
+        padding: 1px;
+    }
+
+    .searching-field #modal-filters.form-control {
+        min-height: 40px;
+    }
+
+    .searching-field .icon-location {
+        font-size: 22px;
+    }
+	element.style {
+	}
+	.goog-te-gadget .goog-te-combo {
+		margin: 4px 0;
+	}
+	.google-translator select {    
+		padding: 8px 0px;
+	}
+}
